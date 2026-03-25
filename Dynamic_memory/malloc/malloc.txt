@@ -1,0 +1,12 @@
+Syntax:
+The sytax for malloc() is 
+        ptr = (cast_type *) malloc (size_in_bytes);
+ptr: 
+    A pointer of the desired data type to store the address of the allocated memory.
+
+cast_type:
+    The data type to which the returned void* pointer should be cast (e.g., int*, char*).
+
+size_in_bytes: 
+    The number of bytes to allocate. This is often calculated using the sizeof operator 
+    (e.g., 10 * sizeof(int) for an array of 10 integers).
